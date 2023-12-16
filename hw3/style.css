@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+nav {
+  background-color: #fff;
+  width: 800px;
+  height: 70px;
+  margin: 0px 320px;
+}
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.lis {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding-top: 25px;
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  display: block;
+}
+.right {
+  float: right;
+}
+.log {
+  margin-top: 17px;
+  margin-right: 20px;
+  border: 2px solid gray;
+  width: 90px;
+  height: 25px;
+  background-color: rgb(63, 232, 232);
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  width: 400px;
+  margin-left: 520px;
+}
+p {
+  color: rgb(63, 232, 232);
+  width: 330px;
+  margin-top: 50px;
+  margin-left: 520px;
+  font-size: 12px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  padding-left: 40px;
+}
+.links {
+  margin-left: 580px;
+  margin-top: 70px;
+}
+.first-link {
+  display: inline-block;
+  height: 40px;
+  width: 130px;
+  background-color: rgb(35, 35, 236);
+  color: #fff;
+  text-align: center;
+  border: 1px solid gray;
+  padding-top: 17px;
+}
+.second-link {
+  margin-left: 20px;
+  display: inline-block;
+  height: 40px;
+  width: 130px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 17px;
+}
+a.color {
+  color: #fff;
+}
