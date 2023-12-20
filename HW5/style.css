@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(246, 238, 168);
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.wrapper {
   background-color: rgb(114, 161, 231);
 }
 h1 {
