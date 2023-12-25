@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.main-title {
+  color: #565759;
+  font-family: Potta One;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.33px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.navigation {
+  display: inline-block;
+  margin: 41px 196px 77px 247px;
+}
+.list {
+  max-width: 434px;
+}
+.list-item {
+  display: inline-block;
+  color: #697390;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  padding-right: 30px;
+}
+.btn {
+  margin-right: 20px;
+}
+.image {
+  max-height: 450px;
+  max-width: 625px;
+  margin-right: 96px;
+}
+.article {
+  display: inline-block;
+}
+.article-title {
+  color: #3a3a3a;
+  font-family: Federo;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 120% */
+  letter-spacing: 1px;
+  max-width: 375px;
+  margin-bottom: 33px;
+}
+.article-button {
+  padding: 8px 16px 8px 17px;
+  background: #434343;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+.main {
+  margin-bottom: 84px;
+}
+
+.bestseller-title {
+  color: #3a3a3a;
+  font-family: Federo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.bestseller-item {
+  width: 245px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 0 30px 30px 0;
+}
+.best-image-kasim {
+  margin: 71px 87px 34px 87px;
+  width: 81px;
+  height: 160px;
+}
+.name-title {
+  color: #2a2a2b;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+.price-item {
+  color: #8c8c8c;
+  text-align: center;
+  font-family: Federo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 357.143% */
+  letter-spacing: 0.28px;
+}
+.best-image-joan {
+  margin: 73px 73px 37px 81px;
+  width: 101px;
+  height: 155px;
+}
+.best-image-eugene {
+  margin: 70px 83px 34px 83px;
+  width: 89px;
+  height: 161px;
+}
+.best-image-julia {
+  margin: 89px 68px 53px 64px;
+  width: 123px;
+  height: 123px;
+}
+.best-image-chair {
+  margin: 60px 115px 38px 116px;
+  width: 119px;
+  height: 167px;
+}
+.best-image-pillow {
+  margin: 76px 105px 55px 112px;
+  width: 133px;
+  height: 134px;
+}
+.best-image-wooden {
+  margin: 76px 112px 55px 113px;
+  width: 124px;
+  height: 134px;
+}
+.bestseller-item-wo {
+  max-width: 245px;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 0 0 30px 0;
+}
+.bestseller-item-bottom {
+  max-width: 337px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 0 30px 30px 0;
+}
+.bestseller-item-bottom-wo {
+  width: 342px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 0;
+}
+.sale-btn {
+  padding: 6px 19px 6px 20px;
+  background-color: #f29731;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.sale {
+  padding: 6px 22px 6px 22px;
+  background-color: #9e0b0f;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  position: absolute;
+  top: 45px;
+  right: 0;
+}
+.group-rfrsh {
+  position: absolute;
+  top: 178px;
+  right: 11px;
+}
+.group-like {
+  position: absolute;
+  top: 210px;
+  right: 11px;
+}
+.group-basket {
+  position: absolute;
+  top: 242px;
+  right: 11px;
+}
+.bestsellers {
+  margin-bottom: 148px;
+}
+.deal {
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.img-container {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 21px;
+  margin-bottom: 36px;
+}
+.img-deal {
+  height: 227px;
+  width: 356px;
+  margin-top: 149px;
+}
+.deal-container {
+  display: inline-block;
+  margin-top: 100px;
+  width: 200px;
+  height: 800px;
+  margin-left: 100px;
+}
+.btn-deal {
+  padding: 8px 34px;
+  background-color: #8096bc;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  margin-bottom: 41px;
+}
+.deal-title {
+  color: #3a3a3a;
+  font-family: Federo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 111.111% */
+  letter-spacing: 0.9px;
+  margin-bottom: 28px;
+}
+.price-deal {
+  color: #78a2ca;
+  font-family: Federo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.9px;
+}
+.deal-text {
+  max-width: 410px;
+  color: #727272;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+}
