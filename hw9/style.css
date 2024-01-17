@@ -1,0 +1,37 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__navigation {
+  padding: 20px 15px;
+  position: fixed;
+  background-color: chocolate;
+}
+.header__navigation-list {
+  display: flex;
+  column-gap: 20px;
+}
+.header__navigation-link {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: black;
+}
+.block {
+  height: 400px;
+}
+.content__block_1 {
+  background-color: aqua;
+}
+.content__block_2 {
+  background-color: black;
+}
+.content__block_3 {
+  background-color: blueviolet;
+}
+.content__block_4 {
+  background-color: brown;
+}
+.content__block_5 {
+  background-color: chartreuse;
+}
