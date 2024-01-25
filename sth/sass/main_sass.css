@@ -1,0 +1,14 @@
+body {
+  line-height: 16px;
+}
+
+header {
+  font-family: Arial, san-serif;
+}
+header p {
+  text-align: center;
+}
+
+footer {
+  font-size: 20px;
+}

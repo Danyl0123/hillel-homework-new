@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+body {
+  line-height: 16px;
+}
+
+header {
+  font-family: $font-family;
+  p {
+    text-align: center;
+  }
+}
+
+footer {
+  font-size: 20px;
+}
