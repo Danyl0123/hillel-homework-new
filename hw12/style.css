@@ -1,0 +1,42 @@
+.wrapper {
+  height: 100%;
+  background-color: rgb(58, 51, 51);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.circle {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 500px;
+  left: 0;
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes circle {
+  0% {
+  }
+  20% {
+    top: 400px;
+    left: 100px;
+  }
+  50% {
+    top: 250px;
+    left: 300px;
+  }
+  80% {
+    top: 400px;
+    left: 600px;
+  }
+  100% {
+    top: 500px;
+    left: 900px;
+  }
+}
