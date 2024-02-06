@@ -1,0 +1,172 @@
+@import "variables";
+
+.top {
+  background-color: inherit;
+  padding: 80px 0;
+}
+
+.top__title {
+  margin-bottom: 10px;
+}
+.title__3 {
+}
+.top__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 60px;
+}
+.top__span {
+  display: block;
+  @media screen and (max-width: 850px) {
+    max-width: 343px;
+  }
+}
+.top__link {
+  font-family: "Work Sans";
+}
+.top__link-block-after {
+  display: none;
+}
+@media screen and (max-width: 670px) {
+  .top__link-block {
+    display: none;
+  }
+  .top__link-block-after {
+    display: block;
+  }
+  .top__link-after {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .top__card-row {
+    margin-bottom: 40px;
+  }
+}
+.top__card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  @media screen and (max-width: 1080px) {
+    justify-content: space-around;
+  }
+}
+.card {
+  padding: 20px 20px;
+  border-radius: 20px;
+  background: $second_color;
+  text-align: center;
+  position: relative;
+  @media screen and (max-width: 1080px) {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+  }
+}
+.card::before {
+  content: "";
+  display: block;
+  padding: 2px 7px;
+  color: rgb(133, 133, 132);
+  background-color: rgb(43, 43, 43);
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.card_7 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+.card_8 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+.card_9 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+.card_10 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+.card_11 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+.card_12 {
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.card_1::before {
+  content: "1";
+}
+.card_2::before {
+  content: "2";
+}
+.card_3::before {
+  content: "3";
+}
+.card_4::before {
+  content: "4";
+}
+.card_5::before {
+  content: "5";
+}
+.card_6::before {
+  content: "6";
+}
+.card_7::before {
+  content: "7";
+}
+.card_8::before {
+  content: "8";
+}
+.card_9::before {
+  content: "9";
+}
+.card_10::before {
+  content: "10";
+  padding: 2px 4px;
+}
+.card_11::before {
+  content: "11";
+  padding: 2px 4px;
+}
+.card_12::before {
+  content: "12";
+  padding: 2px 4px;
+}
+.card__img {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    max-width: 60px;
+  }
+}
+.card__name {
+  display: block;
+  margin-bottom: 5px;
+}
+.card__sales {
+  color: rgb(133, 133, 132);
+  font-family: "Work Sans";
+}
+.card__price {
+  padding-left: 14px;
+  @media screen and (max-width: 1080px) {
+    padding-left: 0;
+  }
+}

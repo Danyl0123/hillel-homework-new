@@ -1,0 +1,113 @@
+@import "variables";
+
+.highlight {
+  background-image: linear-gradient(
+      180deg,
+      rgba(162, 89, 255, 0),
+      rgb(162, 89, 255) 100%
+    ),
+    url("https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qwl9qiK1nhD-BFiG~lJhpuI~9o8~GerIYgNDXnifuo6dCgVoMJuyVBG5OYOjIk7Tzpyzyn8oZSNRa9~FgcN3TNAGirQkOA4UqoZnnX9K9rxjHDKch3rrhZBIn7WVy3gC7xSUFwvJLgyGbMH5r1ATLMW~SIDWTYg8Cu0KpbIYu4-uQQheqEPSGAfHx81qoYN9fpMqjZ3wFXkTm4iFTTCtOXi~8Zbfjhf0qbvuXaIwhGhj53B1JqEjbOiNkG~vSwtrISRQ1Yx-bUH0VZDmykW-c1Q26peWQ4OK6GQoONSyBuYsFNXu7MbrGT3HIV4lrkwfWM09igRvGjr~zyXWSxmquQ__");
+  background-position: center 50%;
+  background-size: 100%;
+  padding: 360px 0 60px 0;
+  @media screen and (max-width: 670px) {
+    padding: 120px 0 40px 0;
+    background-size: 170%;
+  }
+}
+.container {
+}
+.highlight__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @media screen and (max-width: 670px) {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+}
+.highlight__link-block-after {
+  display: none;
+}
+@media screen and (max-width: 670px) {
+  .highlight__link-block {
+    display: none;
+  }
+  .highlight__link-block-after {
+    display: block;
+  }
+  .highlight__link {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.highlight__artist-card {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.highlight__author {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: $second_color;
+  font-family: Work Sans;
+}
+.highlight__icon {
+  max-width: 24px;
+}
+.highlight__title {
+}
+.title__2 {
+}
+.highlight__link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 22px 50px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  font-family: Work Sans;
+}
+.highlight__link-icon {
+}
+
+.timer {
+  padding: 30px;
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+  background: rgba(59, 59, 59, 0.5);
+}
+.timer__span {
+  /* Caption - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+.timer__row {
+  display: flex;
+  gap: 10px;
+}
+.timer__time {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.timer__span-column {
+}
+
+.timer__mark {
+}
+.timer__span-column_low {
+  font-size: 12px;
+}

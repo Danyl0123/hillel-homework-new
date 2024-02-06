@@ -1,0 +1,86 @@
+@import "variables";
+
+.footer {
+  padding: 40px 0;
+  background: $second_color;
+}
+.container {
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(133, 133, 132);
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.footer__column {
+}
+.footer__column-title {
+  margin-bottom: 30px;
+}
+.logo {
+}
+.logo__link {
+}
+.logo__span {
+}
+.footer__span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: Work Sans;
+  color: rgb(204, 204, 204);
+}
+.footer__links-row {
+  display: flex;
+  gap: 13px;
+}
+.footer__icon {
+}
+
+.footer__text {
+  padding-top: 20px;
+  font-family: Work Sans;
+  font-size: 12px;
+  color: rgb(204, 204, 204);
+}
+
+.footer .form__button {
+  @media screen and (max-width: 500px) {
+    position: relative;
+    width: 100%;
+  }
+}
+.footer .form__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+}
+.footer .form__input {
+  padding: 18px 210px 19px 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  @media screen and (max-width: 500px) {
+    padding: 18px 20px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+.footer .btn-secondary {
+  @media screen and (max-width: 670px) {
+    justify-content: center;
+  }
+}

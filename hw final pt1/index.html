@@ -5,35 +5,827 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <div class="header">
+      <div class="header__container">
+        <nav class="navigation">
+          <div class="navigation__logo logo">
+            <a href="#" class="logo__link">
+              <img src="imgs/icons/Storefront.svg" alt="icon" />
+              <span class="logo__span">NFT</span>
+              <span class="logo__span">Marketplace</span>
+            </a>
+          </div>
+          <div class="navigation__menu">
+            <a href="#" class="navigation__item">Marketplace</a
+            ><a href="#" class="navigation__item">Rankings</a
+            ><a href="#" class="navigation__item">Connect a wallet</a
+            ><a href="#" class="btn-primary"
+              ><img
+                src="imgs/icons/User.svg"
+                alt="icon"
+                class="naviation__img"
+              />Sign Up</a
+            >
+          </div>
+          <button type="menu" class="navigation__btn active"><img src="imgs/icons/Burger Menu.svg" alt="icon" class="navigation__icon"></button>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__row">
+          <div class="hero__hidden-info">
+              
+            <h1 class="title__1 hero__title">
+              Discover digital art & Collect NFTs
+            </h1>
+            <p class="hero__text body-text">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
+            </p>
+
+          </div>
+          <div class="hero__card">
+
+            <h1 class="title__1 hero__title">
+              Discover digital art & Collect NFTs
+            </h1>
+            <p class="hero__text body-text">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
+            </p>
+            <a href="#" class="card__link btn-secondary"
+              ><img
+                src="imgs/icons/RocketLaunch.svg"
+                alt="icon"
+                class="hero__icon"
+              />Get Started</a
+            >
+            <div class="card__row">
+              <div class="card__sale">
+                <span class="card__span-title title__4">240k+</span>
+                <span class="card__span-text">Total Sale</span>
+              </div>
+              <div class="card__sale">
+                <span class="card__span-title title__4">100k+</span>
+                <span class="card__span-text">Auctions</span>
+              </div>
+              <div class="card__sale">
+                <span class="card__span-title title__4">240k+</span>
+                <span class="card__span-text">Artists</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-card">
+            <img
+              src="imgs/icons/Image Placeholder.png"
+              alt="nft"
+              class="img-card__img"
+            />
+            <span class="img-card__span title__5">Space Walking</span>
+            <div class="img-card__author">
+              <img src="imgs/avatars/ava.svg" alt="ava" />
+              <span class="img-card__name">Animakeed</span>
+            </div>
+          </div>
+
+          <div class="hero__hidden-card-row">
+            <a href="#" class="card__link btn-secondary"
+            ><img
+              src="imgs/icons/RocketLaunch.svg"
+              alt="icon"
+              class="hero__icon"
+            />Get Started</a
+          >
+          <div class="card__row">
+            <div class="card__sale">
+              <span class="card__span-title title__4">240k+</span>
+              <span class="card__span-text">Total Sale</span>
+            </div>
+            <div class="card__sale">
+              <span class="card__span-title title__4">100k+</span>
+              <span class="card__span-text">Auctions</span>
+            </div>
+            <div class="card__sale">
+              <span class="card__span-title title__4">240k+</span>
+              <span class="card__span-text">Artists</span>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>
-    </nav>
+    </section>
+
+    <section class="trend">
+      <div class="container">
+        <h3 class="trend__title title__3">Trending Collection</h3>
+        <span class="trend__span body-text"
+          >Checkout our weekly updated trending collection.</span
+        >
+        <div class="trend__row">
+          <div class="trend__card">
+            <div class="trend__img-block">
+              <div class="trend__grid_1">
+                <img
+                  src="imgs/card__row png/pes.png"
+                  alt="primary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_2">
+                <img
+                  src="imgs/card__row png/cat.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_3">
+                <img
+                  src="imgs/card__row png/Secondary Photo Placeholder.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_4">
+                <a href="#" class="trend__link title__5">1025+</a>
+              </div>
+            </div>
+            <span class="trend__card-span title__5">DSGN Animals</span>
+            <div class="trend__author">
+              <img
+                src="imgs/avatars/row-ava1.svg"
+                alt="ava"
+                class="trend__avatar"
+              />Mr Fox
+            </div>
+          </div>
+          <div class="trend__card second-card">
+            <div class="trend__img-block">
+              <div class="trend__grid_1">
+                <img
+                  src="imgs/card__row png/2Primary Photo Placeholder.png"
+                  alt="primary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_2">
+                <img
+                  src="imgs/card__row png/2Secondary Photo Placeholder.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_3">
+                <img
+                  src="imgs/card__row png/3Secondary Photo Placeholder.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_4">
+                <a href="#" class="trend__link title__5">1025+</a>
+              </div>
+            </div>
+            <span class="trend__card-span title__5">Magic Mushrooms</span>
+            <div class="trend__author">
+              <img
+                src="imgs/avatars/shroomieava.svg"
+                alt="ava"
+                class="trend__avatar"
+              />Shroomie
+            </div>
+          </div>
+          <div class="trend__card last-card">
+            <div class="trend__img-block">
+              <div class="trend__grid_1">
+                <img
+                  src="imgs/card__row png/3primary.png"
+                  alt="primary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_2">
+                <img
+                  src="imgs/card__row png/2rowSecondary Photo Placeholder.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_3">
+                <img
+                  src="imgs/card__row png/3rowlastSecondary Photo Placeholder.png"
+                  alt="secondary"
+                  class="trend__img"
+                />
+              </div>
+              <div class="trend__grid_4">
+                <a href="#" class="trend__link title__5">1025+</a>
+              </div>
+            </div>
+            <span class="trend__card-span title__5">Disco Machines</span>
+            <div class="trend__author">
+              <img
+                src="imgs/avatars/bekindava.svg"
+                alt="ava"
+                class="trend__avatar"
+              />BeKind2Robots
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top">
+      <div class="container">
+        <div class="top__row">
+          <div class="top__text">
+            <h3 class="top__title title__3">Top Creators</h3>
+            <span class="top__span body-text"
+              >Checkout Top Rated Creators on the NFT Marketplace</span
+            >
+          </div>
+          <div class="top__link-block">
+          <a href="#" class="top__link btn-opacity"
+            ><img
+              src="imgs/icons/rocket.svg"
+              alt="icon"
+              class="top__icon"
+            /><span class="top__link-span">View Rankings</span></a
+          ></div>
+        </div>
+        <div class="top__card-row">
+          <div class="card card_1">
+            <img src="imgs/avatars/avatar1.svg" alt="ava" class="card__img" />
+
+            <div class="card__text">
+              <span class="card__name title__5">Keepitreal</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_2">
+            <img src="imgs/avatars/digilab.svg" alt="ava" class="card__img" />
+            <div class="card__text">
+              <span class="card__name title__5">DigiLab</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_3">
+            <img src="imgs/avatars/gravity.svg" alt="ava" class="card__img" />
+            <div class="card__text">
+              <span class="card__name title__5">GravityOne</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_4">
+            <img src="imgs/avatars/juani.svg" alt="ava" class="card__img" />
+            <div class="card__text">
+              <span class="card__name title__5">Juanie</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_5">
+            <img src="imgs/avatars/bluewhale.svg" alt="ava" class="card__img" />
+            <div class="card__text">
+              <span class="card__name title__5">BlueWhale</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_6">
+            <img src="imgs/avatars/mrfox.svg" alt="ava" class="card__img" />
+            <div class="card__text">
+              <span class="card__name title__5">Mr Fox</span>
+              <span class="card__sales">Total sales:</span>
+              <span class="card__price">34.53 ETH</span>
+            </div>
+          </div>
+          <div class="card card_7">
+            <img src="imgs/avatars/shroomie.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">Shroomie</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+          <div class="card card_8">
+            <img src="imgs/avatars/robotica.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">Robotica</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+          <div class="card card_9">
+            <img src="imgs/avatars/rusty.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">RustyRobot</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+          <div class="card card_10">
+            <img src="imgs/avatars/animakid.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">AnimaKid</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+          <div class="card card_11">
+            <img src="imgs/avatars/dotgu.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">Dotgu</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+          <div class="card card_12">
+            <img src="imgs/avatars/ghibl.svg" alt="ava" class="card__img" />
+            <span class="card__name title__5">Ghiblier</span>
+            <span class="card__sales">Total sales:</span>
+            <span class="card__price">34.53 ETH</span>
+          </div>
+        </div>
+
+        <div class="top__link-block-after">
+        <a href="#" class="top__link-after btn-opacity"
+        ><img
+          src="imgs/icons/rocket.svg"
+          alt="icon"
+          class="top__icon"
+        /><span class="top__link-span">View Rankings</span></a
+      ></div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h3 class="caregories__title title__3">Browse Categories</h3>
+
+        <div class="categories__columns-row">
+        <div class="categories__row">
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-7.png"
+                alt="icon"
+                class="categories__img"
+              />
+              <img src="imgs/icons/PaintBrush.png" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Art</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-4.png"
+                alt="icon"
+                class="categories__img"
+              /><img src="imgs/icons/Swatches.png" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Collectibles</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder.png"
+                alt="icon"
+                class="categories__img"
+              />
+              <img src="imgs/icons/MusicNotes.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Music</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-1.png"
+                alt="icon"
+                class="categories__img"
+              />
+              <img src="imgs/icons/Camera.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Photography</span>
+          </a></div>
+          <div class="categories__row">
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-2.png"
+                alt="icon"
+                class="categories__img"
+              /><img src="imgs/icons/VideoCamera.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Video</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-3.png"
+                alt="icon"
+                class="categories__img"
+              /><img src="imgs/icons/MagicWand.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Utility</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-5.png"
+                alt="icon"
+                class="categories__img"
+              /><img src="imgs/icons/Basketball.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Sport</span>
+          </a>
+          <a href="#" class="categories__card">
+            <div class="categories__img-block">
+              <img
+                src="imgs/category icons imgs/Image Placeholder-6.png"
+                alt="icon"
+                class="categories__img"
+              /><img src="imgs/icons/Planet.svg" alt="icon" class="categories__icon">
+            </div>
+            <span class="categories__span body-text">Virtual Worlds</span>
+          </a></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="more">
+      <div class="container">
+        <div class="more__info">
+          <div class="more__text">
+            <h3 class="more__title title__3">Discover More NFTs</h3>
+            <span class="more__span body-text">Explore new trending NFTs</span>
+          </div>
+          <div class="more__link-block">
+          <a href="#" class="more__btn btn-opacity"
+            ><img src="imgs/icons/Eye.svg" alt="icon" class="more__icon" />See
+            All</a
+          ></div>
+        </div>
+
+        <div class="more__row">
+          <div class="more__card">
+            <img
+              src="imgs/info card icon/more1.png"
+              alt="icon"
+              class="more__img"
+            />
+
+            <div class="more__card-text">
+              <h5 class="more__name title__5">Distant Galaxy</h5>
+              <div class="author">
+                <img
+                  src="imgs/icons/iconmore1.svg"
+                  alt="icon"
+                  class="author__icon"
+                />
+                MoonDancer
+              </div>
+
+              <div class="price-row">
+                <div class="price-block">
+                  <div class="price-block__price">Price</div>
+                  <div class="price-block__value">1.63 ETH</div>
+                </div>
+
+                <div class="bid-block">
+                  <div class="bid-block__name">Highest bid</div>
+                  <div class="bid-block__value">0.33 wETH</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="more__card">
+            <img
+              src="imgs/info card icon/more2.png"
+              alt="icon"
+              class="more__img"
+            />
+
+            <div class="more__card-text">
+              <h5 class="more__name title__5">Life On Edena</h5>
+              <div class="author">
+                <img
+                  src="imgs/icons/moreicon2.svg"
+                  alt="icon"
+                  class="author__icon"
+                />
+                NebulaKid
+              </div>
+
+              <div class="price-row">
+                <div class="price-block">
+                  <div class="price-block__price">Price</div>
+                  <div class="price-block__value">1.63 ETH</div>
+                </div>
+
+                <div class="bid-block">
+                  <div class="bid-block__name">Highest bid</div>
+                  <div class="bid-block__value">0.33 wETH</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="more__card last-card_smt">
+            <img
+              src="imgs/info card icon/more3.png"
+              alt="icon"
+              class="more__img"
+            />
+
+            <div class="more__card-text">
+              <h5 class="more__name title__5">AstroFiction</h5>
+              <div class="author">
+                <img
+                  src="imgs/icons/moreicon3.svg"
+                  alt="icon"
+                  class="author__icon"
+                />
+                Spaceone
+              </div>
+
+              <div class="price-row">
+                <div class="price-block">
+                  <div class="price-block__price">Price</div>
+                  <div class="price-block__value">1.63 ETH</div>
+                </div>
+
+                <div class="bid-block">
+                  <div class="bid-block__name">Highest bid</div>
+                  <div class="bid-block__value">0.33 wETH</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more__link-block-after">
+          <a href="#" class="more__btn btn-opacity"
+            ><img src="imgs/icons/Eye.svg" alt="icon" class="more__icon" />See
+            All</a
+          ></div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="container">
+        <div class="highlight__info">
+          <div class="highlight__artist-card">
+            <div class="highlight__author">
+              <img
+                src="imgs/avatars/shroomie.svg"
+                alt="icon"
+                class="highlight__icon"
+              />
+              Shroomie
+            </div>
+            <h2 class="highlight__title title__2">Magic Mushrooms</h2>
+            <div class="highlight__link-block"><a href="#" class="highlight__link"
+              ><img
+                src="imgs/icons/Eye.svg"
+                alt=""
+                class="highlight__link-icon"
+              />See NFT</a
+            ></div>
+          </div>
+
+          <div class="timer">
+            <span class="timer__span">Auction ends in:</span>
+            <div class="timer__row">
+              <div class="timer__time">
+                <span class="timer__span-column title__3">59</span
+                ><span class="timer__span-column_low">Hours</span>
+              </div>
+              <div class="timer__mark title__4">:</div>
+              <div class="timer__time">
+                <span class="timer__span-column title__3">59</span
+                ><span class="timer__span-column_low">Minutes</span>
+              </div>
+              <div class="timer__mark title__4">:</div>
+              <div class="timer__time">
+                <span class="timer__span-column title__3">59</span
+                ><span class="timer__span-column_low">Seconds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="highlight__link-block-after"><a href="#" class="highlight__link"
+          ><img
+            src="imgs/icons/Eye.svg"
+            alt=""
+            class="highlight__link-icon"
+          />See NFT</a
+        ></div>
+      </div>
+    </section>
+
+    <section class="works">
+      <div class="container">
+        <h3 class="works__title title__3">How it works</h3>
+        <span class="works__span body-text">Find out how to get started</span>
+        <div class="works__row">
+          <div class="works__card">
+            <img
+              src="imgs/card__row png/works1.png"
+              alt="img"
+              class="works__img"
+            />
+            <div class="works__info">
+            <h5 class="works__title_5 title__5">Setup Your wallet</h5>
+            <p class="works__text">
+              Set up your wallet of choice. Connect it to the Animarket by
+              clicking the wallet icon in the top right corner.
+            </p></div>
+          </div>
+          <div class="works__card">
+            <img
+              src="imgs/card__row png/works2.png"
+              alt="img"
+              class="works__img"
+            /> <div class="works__info">
+
+            <h5 class="works__title_5 title__5">Create Collection</h5>
+            <p class="works__text">
+              Upload your work and setup your collection. Add a description,
+              social links and floor price.
+            </p></div>
+          </div>
+          <div class="works__card">
+            <img
+              src="imgs/card__row png/works3.png"
+              alt="img"
+              class="works__img"
+            />
+            <div class="works__info">
+            <h5 class="works__title_5 title__5">Start Earning</h5>
+            <p class="works__text">
+              Choose between auctions and fixed-price listings. Start earning by
+              selling your NFTs or trading others.
+            </p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="widget">
+      <div class="container">
+        <div class="widget__row">
+          <div class="widget__img-block">
+            <img
+              src="imgs/card__row png/widget.png"
+              alt="img"
+              class="widget__img"
+            />
+          </div>
+          <div class="widget__img-block img-block-last">
+            <img
+              src="imgs/card__row png/cosmonavt.png"
+              alt="img"
+              class="widget__img"
+            />
+          </div>
+          <div class="widget__info">
+            <h3 class="widget__title title__3">Join our weekly digest</h3>
+            <p class="widget__text body-text">
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
+
+            <form action="" class="form">
+              <label class="form__label">
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Enter your email here"
+                />
+                <button
+                  type="submit"
+                  href="#"
+                  class="form__button btn-secondary"
+                >
+                  <img
+                    src="imgs/icons/mess.svg"
+                    alt="icon"
+                    class="form__icon"
+                  />Subscribe
+                </button>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__column">
+            <div class="footer__column-title logo">
+              <a href="#" class="logo__link">
+                <img src="imgs/icons/Storefront.svg" alt="icon" />
+                <span class="logo__span">NFT</span>
+                <span class="logo__span">Marketplace</span>
+              </a>
+            </div>
+            <a href="#" class="footer__link"
+              ><span class="footer__span"
+                >NFT marketplace UI created <br />
+                with Anima for Figma.</span
+              ></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Join our community</span></a
+            >
+            <div class="footer__links-row">
+              <a href="#" class="footer__link"
+                ><img
+                  src="imgs/icons/footer1.svg"
+                  alt="icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img
+                  src="imgs/icons/footer2.svg"
+                  alt="icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img
+                  src="imgs/icons/footer3.svg"
+                  alt="icon"
+                  class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img
+                  src="imgs/icons/footer4.svg"
+                  alt="icon"
+                  class="footer__icon"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__column-title title__5">Explore</div>
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Explore</span></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Rankings</span></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Connect a wallet</span></a
+            >
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__column-title title__5">
+              Join our weekly digest
+            </div>
+            <a href="#" class="footer__link">
+              <span class="footer__span"
+                >Get exclusive promotions & updates <br />
+                straight to your inbox.</span
+              ></a
+            >
+
+            <form action="" class="form">
+              <label class="form__label">
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Enter your email here"
+                />
+                <button
+                  type="submit"
+                  href="#"
+                  class="form__button btn-secondary"
+                >
+                  Subscribe
+                </button>
+              </label>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__text">Ⓒ NFT Market. Use this template freely.</div>
+      </div>
+    </footer>
+
+
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.querySelector(".navigation__btn");
+  const menu = document.querySelector(".navigation__menu");
+  menuButton.addEventListener("click", function () {
+    menu.classList.toggle("active");
+  });
+});
+    </script>
   </body>
 </html>

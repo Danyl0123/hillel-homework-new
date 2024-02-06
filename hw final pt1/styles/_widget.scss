@@ -1,0 +1,97 @@
+@import "variables";
+
+.widget {
+  padding: 40px 0 80px 0;
+  background-color: inherit;
+}
+.widget__row {
+  display: flex;
+
+  align-items: center;
+  padding: 40px 30px;
+  border-radius: 20px;
+  gap: 80px;
+
+  background: $second_color;
+
+  @media screen and (max-width: 900px) {
+    align-items: stretch;
+  }
+  @media screen and (max-width: 670px) {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+}
+.widget__img-block {
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.img-block-last {
+  display: none;
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+}
+.widget__img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+.widget__info {
+  max-width: 425px;
+  @media screen and (max-width: 800px) {
+    max-width: 300px;
+  }
+  @media screen and (max-width: 670px) {
+    max-width: 100%;
+  }
+}
+.widget__title {
+  margin-bottom: 10px;
+}
+
+.widget__text {
+  margin-bottom: 40px;
+}
+
+.widget__row .form__button {
+  @media screen and (max-width: 800px) {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+}
+.widget__row .form__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+}
+.widget__row .form__input {
+  padding: 18px 210px 19px 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  @media screen and (max-width: 800px) {
+    padding: 18px 20px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+.widget__row .btn-secondary {
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+  }
+}

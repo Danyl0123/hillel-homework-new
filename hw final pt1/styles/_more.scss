@@ -1,0 +1,114 @@
+.more {
+  padding: 80px 0;
+  background-color: inherit;
+  @media screen and (max-width: 670px) {
+    padding: 40px 0;
+  }
+}
+.container {
+}
+.more__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 60px;
+}
+.more__text {
+}
+.more__title {
+  margin-bottom: 10px;
+}
+.ttile__3 {
+}
+.more__span {
+}
+.more__btn {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  text-align: center;
+}
+.btn-opacity {
+}
+.more__icon {
+}
+
+.more__link-block-after {
+  display: none;
+}
+@media screen and (max-width: 670px) {
+  .more__link-block {
+    display: none;
+  }
+  .more__link-block-after {
+    display: block;
+  }
+  .more__btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .more__row {
+    margin-bottom: 40px;
+  }
+}
+.more__row {
+  display: flex;
+  gap: 30px;
+  @media screen and (max-width: 1079px) {
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 670px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.more__card {
+  border-radius: 20px;
+  background: $second_color;
+}
+.more__img {
+  display: block;
+  max-width: 100%;
+}
+.more__card-text {
+  padding: 20px;
+}
+.more__name {
+  margin-bottom: 5px;
+}
+.title__5 {
+}
+
+.author {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.author__icon {
+}
+.price-row {
+  display: flex;
+  justify-content: space-between;
+}
+.price-block {
+}
+.price-block__price {
+  color: rgb(133, 133, 132);
+  font-size: 12px;
+
+  margin-bottom: 8px;
+}
+
+.price-block__value {
+}
+.bid-block {
+}
+.bid-block__name {
+  color: rgb(133, 133, 132);
+  font-family: "Space Mono";
+  font-size: 12px;
+
+  margin-bottom: 8px;
+}
+.bid-block__value {
+}
