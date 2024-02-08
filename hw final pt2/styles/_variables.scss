@@ -1,0 +1,155 @@
+$main_color: #a259ff;
+$second_color: rgb(59, 59, 59);
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600&display=swap");
+.body-text {
+  /* Body Text- Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  @media screen and (max-width: 900px) {
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+.body-text-mono {
+  /* Base(Body) - Work Sans */
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.btn-primary {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  border-radius: 20px;
+  padding: 19px 30px;
+  background-color: $main_color;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+}
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 12px;
+  border-radius: 20px;
+  padding: 19px 50px;
+  background-color: $main_color;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+}
+
+.title__1 {
+  font-family: "Work Sans";
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #fff;
+  @media screen and (max-width: 900px) {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  @media screen and (max-width: 670px) {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+}
+
+.title__2 {
+  font-family: "Work Sans";
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  @media screen and (max-width: 900px) {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  @media screen and (max-width: 670px) {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+}
+.title__3 {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: capitalize;
+  @media screen and (max-width: 900px) {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media screen and (max-width: 670px) {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+}
+
+.title__4 {
+  /* H4 - Space Mono */
+  color: rgb(255, 255, 255);
+  font-family: "Space Mono";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+  @media screen and (max-width: 900px) {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+}
+
+.title__5 {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+
+  text-transform: capitalize;
+}
+.form__button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.form__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__input {
+  padding: 18px 210px 19px 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+}

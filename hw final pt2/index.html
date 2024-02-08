@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__container">
+        <nav class="navigation">
+          <div class="navigation__logo logo">
+            <a href="#" class="logo__link">
+              <img src="img/Storefront.svg" alt="icon" />
+              <span class="logo__span">NFT</span>
+              <span class="logo__span">Marketplace</span>
+            </a>
+          </div>
+          <div class="navigation__menu">
+            <a href="#" class="navigation__item">Marketplace</a
+            ><a href="#" class="navigation__item">Rankings</a
+            ><a href="#" class="navigation__item">Connect a wallet</a
+            ><a href="#" class="btn-primary"
+              ><img src="img/User.svg" alt="icon" class="naviation__img" />Sign
+              Up</a
+            >
+          </div>
+          <button type="menu" class="navigation__btn active">
+            <img
+              src="img/Burger Menu.svg"
+              alt="icon"
+              class="navigation__icon"
+            />
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <div class="main-page">
+      <div class="main-page__container">
+        <div class="main-page__row">
+          <div class="main-page__img-block">
+            <img src="img/main-page.png" alt="img" class="main-page__img" />
+          </div>
+          <div class="main-page__info">
+            <h2 class="main-page__title title__2">Create account</h2>
+            <p class="main-page__text body-text">
+              Welcome! enter your details and start creating, collecting and
+              selling NFTs.
+            </p>
+            <form action="" class="main-page__form">
+              <div class="main-page__input-block">
+                <img
+                  src="img/Userinput.svg"
+                  alt="icon"
+                  class="main-page__input-icom"
+                />
+                <input
+                  class="main-page__input"
+                  type="text"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="main-page__input-block">
+                <img
+                  src="img/EnvelopeSimple.svg"
+                  alt="icon"
+                  class="main-page__input-icom"
+                />
+                <input
+                  class="main-page__input"
+                  type="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="main-page__input-block">
+                <img
+                  src="img/lock.svg"
+                  alt="icon"
+                  class="main-page__input-icom"
+                />
+                <input
+                  class="main-page__input"
+                  type="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="main-page__input-block">
+                <img
+                  src="img/lockkey.svg"
+                  alt="icon"
+                  class="main-page__input-icom"
+                />
+                <input
+                  class="main-page__input"
+                  type="password"
+                  placeholder="Confirm Password"
+                />
+              </div>
+
+              <button type="submit" class="main-page__btn btn-primary">
+                Create account
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__column">
+            <div class="footer__column-title logo">
+              <a href="#" class="logo__link">
+                <img src="img/Storefront.svg" alt="icon" />
+                <span class="logo__span">NFT</span>
+                <span class="logo__span">Marketplace</span>
+              </a>
+            </div>
+            <a href="#" class="footer__link"
+              ><span class="footer__span"
+                >NFT marketplace UI created <br />
+                with Anima for Figma.</span
+              ></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Join our community</span></a
+            >
+            <div class="footer__links-row">
+              <a href="#" class="footer__link"
+                ><img src="img/DiscordLogo.svg" alt="icon" class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="img/YoutubeLogo.svg" alt="icon" class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img src="img/TwitterLogo.svg" alt="icon" class="footer__icon"
+              /></a>
+              <a href="#" class="footer__link"
+                ><img
+                  src="img/InstagramLogo.svg"
+                  alt="icon"
+                  class="footer__icon"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__column-title title__5">Explore</div>
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Explore</span></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Rankings</span></a
+            >
+            <a href="#" class="footer__link"
+              ><span class="footer__span">Connect a wallet</span></a
+            >
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__column-title title__5">
+              Join our weekly digest
+            </div>
+            <a href="#" class="footer__link">
+              <span class="footer__span"
+                >Get exclusive promotions & updates <br />
+                straight to your inbox.</span
+              ></a
+            >
+
+            <form action="" class="form">
+              <label class="form__label">
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Enter your email here"
+                />
+                <button
+                  type="submit"
+                  href="#"
+                  class="form__button btn-secondary"
+                >
+                  Subscribe
+                </button>
+              </label>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__text">Ⓒ NFT Market. Use this template freely.</div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuButton = document.querySelector(".navigation__btn");
+        const menu = document.querySelector(".navigation__menu");
+        menuButton.addEventListener("click", function () {
+          menu.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
